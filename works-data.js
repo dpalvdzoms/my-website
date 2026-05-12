@@ -1,5 +1,17 @@
 const worksData = [
   {
+    date: "2023.12",
+    title: "江水",
+    category: "ci",
+    categoryLabel: "填词",
+    body: `<p>蓝墨水在日记里写：</p>
+<p>“我以为我会一辈子记住十六岁的冬天，可我生活的地方已不再下雪。”</p>
+<p>但是现在啊，雪填满了她的世界。</p>`,
+    fullTextUrl: "pieces/江水.html",
+    audio: null,
+    video: null
+  },
+  {
     date: "2026.05.01",
     title: "满庭芳 · 暮春",
     category: "ci",
