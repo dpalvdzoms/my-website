@@ -289,7 +289,7 @@
         if (!fileRes.ok) throw new Error('无法读取 works-data.js，请检查 Token 权限');
 
         const fileData = await fileRes.json();
-        const currentContent = atob(fileData.content.replace(/\n/g, ''));
+        const currentContent = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
         const sha = fileData.sha;
 
         // Build new entry
