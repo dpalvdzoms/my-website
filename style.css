@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: 'TibetanForce';
-  src: local('Noto Serif Tibetan');
+  src: url('fonts/NotoSerifTibetan-Regular.ttf') format('truetype');
+  font-display: swap;
   unicode-range: U+0F00-0FFF, U+F000-F8FF;
 }
 
