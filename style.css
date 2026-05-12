@@ -200,9 +200,9 @@ a:hover { color: var(--gray); }
 
 .card {
   break-inside: avoid;
-  margin-bottom: 2rem;
-  padding-bottom: 1.8rem;
-  border-bottom: 1px solid var(--rule);
+  margin-bottom: 1.6rem;
+  padding: 1.5rem;
+  border: 1px solid var(--rule);
 }
 
 .card-date {
