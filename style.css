@@ -202,7 +202,32 @@ a:hover { color: var(--gray); }
   break-inside: avoid;
   margin-bottom: 1.6rem;
   padding: 1.5rem;
+  border: 1px solid #CCCCCC;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #999999;
+}
+
+/* ═══ Audio/Video in cards ═══ */
+.card audio {
+  width: 100%;
+  margin-top: 0.8rem;
+  height: 36px;
+}
+
+.card video {
+  width: 100%;
+  margin-top: 0.8rem;
   border: 1px solid var(--rule);
+}
+
+.card iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-top: 0.8rem;
+  border: none;
 }
 
 .card-date {

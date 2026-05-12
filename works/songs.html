@@ -35,6 +35,7 @@
 
       <div class="masonry">
 
+        <!-- 示例：嵌入音频文件 -->
         <div class="card">
           <div class="card-date">2026.02.18</div>
           <h3 class="card-title">无题</h3>
@@ -42,10 +43,48 @@
             <p>词：你的名字<br>曲：你的名字</p>
             <p>城市的灯火像素点一样排列<br>我在第三十七层楼看见你的影子<br>从一片云走到另一片云</p>
           </div>
+          <!-- 音频：将 src 替换为你的音频文件路径 -->
+          <audio controls>
+            <source src="" type="audio/mpeg">
+            音频加载失败
+          </audio>
           <div class="card-footer">
             <span class="card-tag">歌曲</span>
           </div>
         </div>
+
+        <!-- 示例：嵌入视频文件 -->
+        <div class="card">
+          <div class="card-date">2025.11.03</div>
+          <h3 class="card-title">另一首歌的标题</h3>
+          <div class="card-body">
+            <p>词：你的名字<br>曲：你的名字</p>
+            <p>歌词内容在此……</p>
+          </div>
+          <!-- 视频：将 src 替换为你的视频文件路径 -->
+          <video controls>
+            <source src="" type="video/mp4">
+            视频加载失败
+          </video>
+          <div class="card-footer">
+            <span class="card-tag">歌曲</span>
+          </div>
+        </div>
+
+        <!-- 示例：嵌入外部链接（如网易云、B站） -->
+        <!-- 取消下方注释并替换 src 即可使用
+        <div class="card">
+          <div class="card-date">2025.08.20</div>
+          <h3 class="card-title">嵌入外部平台示例</h3>
+          <div class="card-body">
+            <p>歌词内容……</p>
+          </div>
+          <iframe src="外部嵌入链接"></iframe>
+          <div class="card-footer">
+            <span class="card-tag">歌曲</span>
+          </div>
+        </div>
+        -->
 
       </div>
     </div>
