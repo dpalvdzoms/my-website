@@ -1,5 +1,19 @@
 const worksData = [
   {
+    date: "2026.01.13",
+    title: "卜算子 · 写给梦中超涵",
+    category: "modern",
+    categoryLabel: "摩登诗词",
+    body: `<p>一朝北京辞，西去千千里。</p>
+<p>年末超涵归不归？遥望巴黎地。</p>
+<div class="spacer"></div>
+<p>巴黎不能回，信纸添双翅。</p>
+<p>辗转时差难共梦，梦在相思外。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2026.01.28",
     title: "临江仙 · 千里遥寄螺蛳奇",
     category: "modern",
