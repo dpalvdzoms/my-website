@@ -1,5 +1,19 @@
 const worksData = [
   {
+    date: "2026.01.04",
+    title: "西江月 · 我不是猫",
+    category: "modern",
+    categoryLabel: "摩登诗词",
+    body: `<p>奔跃好生欢喜，腾飞不慎栽跤。</p>
+<p>北风呼啸卷猫腰，世界怎么颠倒。</p>
+<div class="spacer"></div>
+<p>原是有人使坏，抱猫强吻摸挠。</p>
+<p>翻身下马小猫逃，被捉可还得了。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2026.01.14",
     title: "临江仙 · 坐标公司会议室",
     category: "modern",
