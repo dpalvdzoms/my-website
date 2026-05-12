@@ -1,5 +1,21 @@
 const worksData = [
   {
+    date: "2026.01.14",
+    title: "临江仙 · 坐标公司会议室",
+    category: "modern",
+    categoryLabel: "摩登诗词",
+    body: `<p>日日上班都苦等，公交味臭还熏。</p>
+<p>冬天快去唤来春。</p>
+<p>盼风日渐小，电动好通勤。</p>
+<div class="spacer"></div>
+<p>十点周会还在讲，房间幽闭头昏。</p>
+<p>内容难懂又难跟。</p>
+<p>陋居在叫我，一梦到清晨。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2026.01.13",
     title: "卜算子 · 写给梦中超涵",
     category: "modern",
