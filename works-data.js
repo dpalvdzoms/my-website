@@ -1,5 +1,23 @@
 const worksData = [
   {
+    date: "2019.05",
+    title: "扬州慢 · 自白",
+    category: "ci",
+    categoryLabel: "填词",
+    body: `<p>风乍山林，鸟惊扑起，凌飞向远青州。</p>
+<p>破层云千里，余空响啁啾。</p>
+<p>浅尝尽、炎凉世态，即携钺走，饮马江头。</p>
+<p>问何枝、供我栖止，停驻寻秋？</p>
+<div class="spacer"></div>
+<p>早先念想，愿能得、独泛孤舟。</p>
+<p>纵归鸟不答，风声总有，还自清修。</p>
+<p>不必心图云上，看前路、山景幽幽。</p>
+<p>任谷中寒索，艰途虽险仍游。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2020.01.12",
     title: "浣溪沙",
     category: "ci",
