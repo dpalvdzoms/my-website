@@ -1,5 +1,15 @@
 const worksData = [
   {
+    date: "2019.12",
+    title: "掠过",
+    category: "fiction",
+    categoryLabel: "小说",
+    body: `<p>群山从你身边掠过，我退去群山之后。</p>`,
+    fullTextUrl: "pieces/掠过.html",
+    audio: null,
+    video: null
+  },
+  {
     date: "2019.05",
     title: "望江南",
     category: "ci",
