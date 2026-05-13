@@ -1,5 +1,19 @@
 const worksData = [
   {
+    date: "2021.12",
+    title: "点绛唇 · 冬日赠伊倩",
+    category: "ci",
+    categoryLabel: "填词",
+    body: `<p>北上燕园，未名湖畔初相见。</p>
+<p>天澄水浅，秋叶红人面。</p>
+<div class="spacer"></div>
+<p>忽已冬深，还念斜阳晚、和风软。</p>
+<p>伊人菀菀，倩影松枝短。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2023.11.04",
     title: "朝中措 · 为元楚寿",
     category: "ci",
