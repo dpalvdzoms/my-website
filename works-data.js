@@ -6,7 +6,7 @@ const worksData = [
     categoryLabel: "歌曲",
     body: `<p>从缺</p>`,
     fullTextUrl: "pieces/最佳辩友.html",
-    audio: "../../audio/最佳辩友demo.mp4",
+    audio: "../audio/最佳辩友demo.mp4",
     video: null
   },
   {
@@ -254,7 +254,7 @@ const worksData = [
     body: `<p>词：你的名字<br>曲：你的名字</p>
 <p>城市的灯火像素点一样排列<br>我在第三十七层楼看见你的影子<br>从一片云走到另一片云</p>`,
     fullTextUrl: null,
-    audio: "",
+    audio: null,
     video: null
   }
   
