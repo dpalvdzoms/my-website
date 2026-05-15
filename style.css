@@ -372,7 +372,7 @@ a:hover { color: var(--gray); }
 /* ═══ Responsive ═══ */
 @media (max-width: 900px) {
   .masonry { flex-direction: column; }
-  .masonry-col { width: 100%; }
+  .masonry-col { display: contents; }
 }
 
 @media (max-width: 768px) {

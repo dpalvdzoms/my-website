@@ -26,7 +26,7 @@ function renderWorks(container, category, baseUrl) {
     }
 
     const card = `
-      <div class="card">
+      <div class="card" style="order:${i}">
         <div class="card-date">${item.date}</div>
         <h3 class="card-title">${item.title}</h3>
         <div class="card-body">${item.body}</div>
