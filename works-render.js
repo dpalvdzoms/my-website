@@ -13,10 +13,14 @@ function renderWorks(container, category, baseUrl) {
 
   data.forEach((item, i) => {
     let mediaHtml = '';
-    if (item.audio !== null) {
-      mediaHtml = `<audio controls><source src="${item.audio}" type="audio/mpeg"></audio>`;
+    if (item.audio) {
+      if (item.audio.endsWith('.mp4')) {
+        mediaHtml = `<video controls><source src="${item.audio}" type="video/mp4"></video>`;
+      } else {
+        mediaHtml = `<audio controls><source src="${item.audio}" type="audio/mpeg"></audio>`;
+      }
     }
-    if (item.video !== null) {
+    if (item.video) {
       mediaHtml = `<video controls><source src="${item.video}" type="video/mp4"></video>`;
     }
 
