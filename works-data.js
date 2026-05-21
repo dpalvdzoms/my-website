@@ -1,5 +1,19 @@
 const worksData = [
   {
+    date: "2026.5.18",
+    title: "定风波 · 定定风波",
+    category: "modern",
+    categoryLabel: "摩登诗词",
+    body: `<p>去岁相知在贵司，期年又至偶逢时。</p>
+<p>睛夏怎生多愁雨？去去。何如携手挂冠归。</p>
+<div class="spacer"></div>
+<p>我往你来相间替，变体。如今职也一同离。</p>
+<p>明日太阳当空照，好好。风轻天朗步如飞。</p>`,
+    fullTextUrl: null,
+    audio: null,
+    video: null
+  },
+  {
     date: "2023.07.21",
     title: "最佳辩友",
     category: "songs",
